@@ -47,7 +47,7 @@ public class DetailController {
 			}
 			returnList.add(returnMap);
 		}
-		return returnList;
+		return detailService.findAll();
 	}
 
 }
